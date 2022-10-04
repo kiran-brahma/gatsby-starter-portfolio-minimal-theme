@@ -3,7 +3,7 @@
   "email": "akbrahma@duck.com",
   "description": "Drop me an email or connect with over Linkedin or Twitter",
   "image": {
-    "src": "../../images/favicon.png",
+    "src": "../../images/logo.png",
     "alt": "Gatsby Logo"
   },
   "socialProfiles": {

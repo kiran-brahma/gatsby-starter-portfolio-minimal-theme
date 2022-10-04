@@ -2,12 +2,12 @@
   "siteMetadata": {
     "language": "en",
     "siteUrl": "https://gatsby-starter-portfolio-minimal-theme.netlify.app/",
-    "title": "Gatsby Starter for Portfolio Minimal",
+    "title": "Kiran Brahma's Blog",
     "titleTemplate": "%s · Portfolio Minimal",
-    "description": "A Gatsby Starter Project to easily get started with Portfolio Minimal theme.",
-    "author": "Konstantin Münster",
-    "avatar": "../content/images/gatsby.png",
-    "bio": "This biography will be used in the footer area of an article and can contain some more details about the author.",
+    "description": "A blog where I write about my expereinces of managing a small business in India.",
+    "author": "Kiran Brahma",
+    "avatar": "../content/images/logo.png",
+    "bio": "Hello, I am Kiran Brahma, running my own business in staffing services. Engineer and MBA by education. This blog is about helping other people running their business based on my experiences.",
     "social": {
       "behance": "",
       "github": "https://github.com/kiran-brahma",
@@ -18,18 +18,18 @@
     }
   },
   "siteConfiguration": {
-    "logo": { "text": "Portfolio" },
+    "logo": { "text": "KB Blog" },
     "navigation": {
       "header": [
-        { "label": "About", "url": "/#about" },
-        { "label": "Blog", "url": "/blog" },
-        { "label": "Features", "url": "/#features" },
-        { "label": "Github", "url": "/#github" }
+        { "label": "About Me", "url": "/#about" },
+        { "label": "My Writings", "url": "/blog" },
+        { "label": "Recommended Reading", "url": "/books" },
+        { "label": "Contact", "url": "/#contact" }
       ],
       "ctaButton": {
         "openNewTab": true,
-        "label": "Resume",
-        "url": "/resume.pdf"
+        "label": "Subscribe",
+        "url": "https://airtable.com/shrC377wg77sDgUvk"
       },
       "footer": [
         { "label": "Privacy", "url": "/privacy" },
