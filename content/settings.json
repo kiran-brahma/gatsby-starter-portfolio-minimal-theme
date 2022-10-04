@@ -9,11 +9,12 @@
     "avatar": "../content/images/gatsby.png",
     "bio": "This biography will be used in the footer area of an article and can contain some more details about the author.",
     "social": {
-      "behance": "https://behance.com",
-      "github": "https://github.com/konstantinmuenster",
-      "medium": "https://konstantinmuenster.medium.com",
-      "linkedin": "https://www.linkedin.com/in/konstantin-muenster/",
-      "mail": "mailto:mail@konstantin.digital"
+      "behance": "",
+      "github": "https://github.com/kiran-brahma",
+      "medium": "",
+      "twitter": "https://twitter.com/the_brahmaa",
+      "linkedin": "https://www.linkedin.com/in/kbrahma/",
+      "mail": "mailto:akbrahma@duck.com?subject=Blog:"
     }
   },
   "siteConfiguration": {
