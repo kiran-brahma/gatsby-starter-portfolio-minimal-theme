@@ -32,13 +32,23 @@ export default function TitlebarBelowMasonryImageList() {
 }
 
 const itemData = [
- 
   {
-    img: 'https://m.media-amazon.com/images/I/51oHUvYzbsL.jpg',
-    title: 'The Theory Of Everything',
-    description: 'Physics Theories in a Nutshell',
-    link: 'https://amzn.to/3SMFXnK',
+    img: 'https://m.media-amazon.com/images/I/91I6sBtBxAL.jpg',
+    title: 'Storm in a Teacup: The Physics of Everyday Life',
+    description: 'Physics for Everyone',
+    link: 'https://amzn.to/3rw1oxG',
+  },
+  {
+    img: 'https://m.media-amazon.com/images/I/81S8ikILfFS.jpg',
+    title: 'How God Works',
+    description: 'Science behind religious rituals',
+    link: 'https://amzn.to/3SWxBK0',
+  },
+  {
+    img: 'https://m.media-amazon.com/images/I/71Um3LYsWhL.jpg',
+    title: 'What If?',
+    description: 'Serious Answers to Crazy Questions',
+    link: 'https://amzn.to/3SzcXQA',
   }, 
+  
 ];
-
-

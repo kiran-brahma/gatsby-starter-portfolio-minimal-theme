@@ -9,7 +9,7 @@ import ImageListItemBar from '@mui/material/ImageListItemBar';
 export default function TitlebarBelowMasonryImageList() {
   return (
     <Box sx={{ width: 800 }}>
-      <ImageList variant="masonry" cols={3} gap={8}>
+      <ImageList variant="masonry" cols={2} gap={8}>
         {itemData.map((item) => (
           <ImageListItem key={item.img}>
             <a href={item.link} target="_blank" rel="noreferrer">
@@ -33,24 +33,31 @@ export default function TitlebarBelowMasonryImageList() {
 
 const itemData = [
   {
-    img: 'https://m.media-amazon.com/images/P/144475954X.01._SCLZZZZZZZ_SX500_.jpg',
-    title: 'THE ART OF THINKING CLEARLY: BETTER THINKING, BETTER DECISIONSy ',
-    description: 'Reduce your biases ',
-    link: 'https://amzn.to/3SSPFon',
+    img: 'https://m.media-amazon.com/images/I/81RdveuYXWL.jpg',
+    title: 'Guns, Germs And Steel:',
+    description: 'History of Current Societial Structures',
+    link: 'https://amzn.to/3Cw8Tec',
   },
   {
-    img: 'https://m.media-amazon.com/images/I/617IVbY-9qL.jpg',
-    title: 'Superforecasting: The Art and Science of Prediction',
-    description: 'Improve your predicition ability',
-    link: 'https://amzn.to/3CvsBGO',
+    img: 'https://m.media-amazon.com/images/I/71AHF2vYKTL.jpg',
+    title: 'Origin Story: A Big History of Everything',
+    description: 'A Quick bite on everything',
+    link: 'https://amzn.to/3UYXNFE',
   },
   {
-    img: 'https://m.media-amazon.com/images/P/0007256531.01._SCLZZZZZZZ_SX500_.jpg',
-    title: 'Predictably Irrational: The Hidden Forces that Shape Our Decisions',
-    description: 'Primer to Behavioral Economics',
-    link: 'https://amzn.to/3M6Lp2g',
-  },
- 
+    img: 'https://m.media-amazon.com/images/I/616ZyheN31L.jpg',
+    title: 'Sapiens: A Brief History of Humankind:',
+    description: 'Essential History Read',
+    link: 'https://amzn.to/3C5vRHO',
+  }, 
 
+  {
+    img: 'https://m.media-amazon.com/images/I/91rw8Le-deL.jpg',
+    title: 'A Short History Of Nearly Everything',
+    description: 'Short Guide to nearly every topic',
+    link: 'https://amzn.to/3yeQW16',
+  }, 
   
 ];
+
+

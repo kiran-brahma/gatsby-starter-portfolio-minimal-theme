@@ -32,13 +32,23 @@ export default function TitlebarBelowMasonryImageList() {
 }
 
 const itemData = [
- 
   {
-    img: 'https://m.media-amazon.com/images/I/51oHUvYzbsL.jpg',
-    title: 'The Theory Of Everything',
-    description: 'Physics Theories in a Nutshell',
-    link: 'https://amzn.to/3SMFXnK',
+    img: 'https://m.media-amazon.com/images/I/91DUejN+hAL.jpg',
+    title: 'She Three-Body Problem Series',
+    description: 'Aliens are Coming',
+    link: 'https://amzn.to/3rswkPd',
+  },
+  {
+    img: 'https://m.media-amazon.com/images/I/A122LIfHX9L.jpg',
+    title: 'Ready Player One',
+    description: 'When AR/VR Takes over',
+    link: 'https://amzn.to/3rrzLFY',
+  },
+  {
+    img: 'https://m.media-amazon.com/images/I/71+-y3CKfiL.jpg',
+    title: 'The Broken Earth Series',
+    description: 'A world of volcanoes and earthquakes,s',
+    link: 'https://amzn.to/3SRx1xe',
   }, 
+  
 ];
-
-

@@ -12,7 +12,7 @@ export default function TitlebarBelowMasonryImageList() {
       <ImageList variant="masonry" cols={3} gap={8}>
         {itemData.map((item) => (
           <ImageListItem key={item.img}>
-            <a href={item.link} target="_blank" rel="noopener">
+            <a href={item.link} target="_blank" rel="noreferrer">
             <img
               src={item.img}
               srcSet={item.img}

@@ -12,7 +12,7 @@ export default function TitlebarBelowMasonryImageList() {
       <ImageList variant="masonry" cols={3} gap={8}>
         {itemData.map((item) => (
           <ImageListItem key={item.img}>
-            <a href={item.link} target="_blank" rel="noopener">
+            <a href={item.link} target="_blank" rel="noreferrer">
             <img
               src={item.img}
               srcSet={item.img}
@@ -62,6 +62,13 @@ const itemData = [
     title: 'The Diary of a Young Girl',
     description: 'Understanding Horrors of War',
     link: 'https://amzn.to/3Ed2GFl',
+  }, 
+
+  {
+    img: 'https://m.media-amazon.com/images/I/81X6Fh2KL9L.jpg',
+    title: 'LEONARDO DA VINCI: The Biography',
+    description: 'Life of a Polymath',
+    link: 'https://amzn.to/3CrqT8v',
   }, 
 
 ];
