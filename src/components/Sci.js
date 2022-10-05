@@ -47,7 +47,7 @@ const itemData = [
   {
     img: 'https://m.media-amazon.com/images/I/71Um3LYsWhL.jpg',
     title: 'What If?',
-    description: 'Serious Answers to Crazy Questions',
+    description: 'Answers to Crazy Questions',
     link: 'https://amzn.to/3SzcXQA',
   }, 
   

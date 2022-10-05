@@ -47,7 +47,7 @@ const itemData = [
   {
     img: 'https://m.media-amazon.com/images/I/71+-y3CKfiL.jpg',
     title: 'The Broken Earth Series',
-    description: 'A world of volcanoes and earthquakes,s',
+    description: 'World of Volcanoes & Earthquakes',
     link: 'https://amzn.to/3SRx1xe',
   }, 
   

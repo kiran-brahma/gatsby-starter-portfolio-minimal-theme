@@ -35,7 +35,7 @@ const itemData = [
   {
     img: 'https://m.media-amazon.com/images/I/71IIC0n4cBL.jpg',
     title: 'Einstein: His Life and Universe',
-    description: 'The Marvel and Flaws of Einstein',
+    description: 'Marvel and Flaws of Einstein',
     link: 'https://amzn.to/3Cw8Tec',
   },
   {
@@ -47,7 +47,7 @@ const itemData = [
   {
     img: 'https://m.media-amazon.com/images/I/81F7f5hAXVL.jpg',
     title: 'Surely youre Joking Mr Feynman: Adventures of a Curious Character',
-    description: 'Stories from Feynman Life',
+    description: 'Feynman Life Stories',
     link: 'https://amzn.to/3USZGnk',
   }, 
 
@@ -60,7 +60,7 @@ const itemData = [
   {
     img: 'https://m.media-amazon.com/images/I/81lZ-9E4F-S.jpg',
     title: 'The Diary of a Young Girl',
-    description: 'Understanding Horrors of War',
+    description: 'Understand War Horrors',
     link: 'https://amzn.to/3Ed2GFl',
   }, 
 

@@ -75,31 +75,28 @@ export default function Books() {
     
       <Page>
       <center>
-      
-  
-     
     
         <Typography variant="h2" gutterBottom>
         Recommended Reading List
       </Typography>
       <Typography variant="h6" gutterBottom>
-      A list of Books that I would recommend for reading. I break the list down into different topics and you can choose to read the book that might interest you.
-      </Typography>
+      A list of Books that I would recommend for reading </Typography>
 
       <Typography variant="subtitle2" gutterBottom>
       <i>Last Updated on 4th Oct 2022</i>
       </Typography>
       <br></br>
 
-      <Box sx={{ width: '75%' }}>
+      <Box sx={{ width: '50%' }}>
       <AppBar position="static">
         <Tabs
           value={value}
           onChange={handleChange}
+          variant="scrollable"
+          scrollButtons
+          allowScrollButtonsMobile
           indicatorColor="secondary"
           textColor="inherit"
-          variant="fullWidth"
-          aria-label="full width tabs example"
         >
           <Tab label="Business Biographies" {...a11yProps(0)} />
           <Tab label="Business Management" {...a11yProps(1)} />
