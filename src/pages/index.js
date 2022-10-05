@@ -13,7 +13,7 @@ export default function IndexPage() {
   return (
     <>
       <Seo title="Kiran Brahma's Blog" />
-      <Page useSplashScreenAnimation>
+      <Page>
         <HeroSection sectionId="hero" />
         <ArticlesSection sectionId="articles" heading="Latest Articles" sources={['Blog']} />
         <AboutSection sectionId="about" heading="About Me" />
