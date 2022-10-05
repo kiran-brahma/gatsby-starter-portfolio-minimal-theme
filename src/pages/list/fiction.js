@@ -3,13 +3,16 @@ import Box from '@mui/material/Box';
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 import ImageListItemBar from '@mui/material/ImageListItemBar';
+import {  Page, Seo } from "gatsby-theme-portfolio-minimal";
 
 
 
 export default function TitlebarBelowMasonryImageList() {
   return (
-    <Box sx={{ width: 440 }}>
-    <ImageList cols={2} gap={5}>
+    <Page>
+      
+    <Box sx={{ml:25, display:'inline-flex'}}>
+      <ImageList cols={2} gap={18}>
         {itemData.map((item) => (
           <ImageListItem key={item.img}>
             <a href={item.link} target="_blank" rel="noreferrer">
@@ -28,6 +31,7 @@ export default function TitlebarBelowMasonryImageList() {
         ))}
       </ImageList>
     </Box>
+    </Page>
   );
 }
 

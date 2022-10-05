@@ -8,8 +8,8 @@ import ImageListItemBar from '@mui/material/ImageListItemBar';
 
 export default function TitlebarBelowMasonryImageList() {
   return (
-    <Box sx={{ width: 800 }}>
-      <ImageList variant="masonry" cols={3} gap={8}>
+    <Box sx={{ width: 440 }}>
+      <ImageList cols={2} gap={5}>
         {itemData.map((item) => (
           <ImageListItem key={item.img}>
             <a href={item.link} target="_blank" rel="noreferrer">
@@ -17,7 +17,7 @@ export default function TitlebarBelowMasonryImageList() {
               src={item.img}
               srcSet={item.img}
               alt={item.title}
-              width="200" height="300"
+              width="150" height="225"
               loading="lazy"
             /></a>
 

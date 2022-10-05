@@ -87,7 +87,7 @@ export default function Books() {
       </Typography>
       <br></br>
 
-      <Box sx={{ width: '50%' }}>
+      <Box sx={{ width: '100%' }}>
       <AppBar position="static">
         <Tabs
           value={value}
