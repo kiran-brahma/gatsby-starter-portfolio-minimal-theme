@@ -7,7 +7,7 @@
     "description": "A blog where I write about my expereinces of managing a small business in India.",
     "author": "Kiran Brahma",
     "avatar": "../content/images/logo.png",
-    "bio": "Hello, I am Kiran Brahma, running my own business in staffing services. Engineer and MBA by education. This blog is about helping other people running their business based on my experiences.",
+    "bio": "Hello, I am Kiran Brahma, running my own business in staffing services. Engineer and MBA by education.",
     "social": {
       "behance": "",
       "github": "https://github.com/kiran-brahma",
@@ -33,7 +33,7 @@
       },
       "footer": [
         { "label": "Privacy", "url": "/privacy" },
-        { "label": "Imprint", "url": "/imprint" }
+        { "label": "Terms", "url": "/terms" }
       ]
     },
     "featureToggles": {

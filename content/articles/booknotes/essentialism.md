@@ -1,11 +1,10 @@
 ---
 title: "BookNotes: Essentialism"
 description: "Books That I enjoyed Reading."
-date: "2021-0-28"
+date: "2021-09-28"
 banner:
   src: "../../images/notes.png"
   alt: "Essentialism"
-  caption: 'BookNotes: Essentialism'
 categories:
   - "Book Notes"
   - "Productivity"

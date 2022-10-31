@@ -1,7 +1,8 @@
+
 {
   "intro": "Hello",
   "heroPhoto": {
-    "src": "../../images/lego-dummy.png",
+    "src": "../../images/profile.webp",
     "alt": "My Photo"
   },
   "image": {
@@ -10,11 +11,11 @@
   },
   "title": "Welcome to my Blog",
   "subtitle": {
-    "prefix": "I write about my expereinces of managing a small business in India",
+    "prefix": "Sharing my experience on running a business",
     "highlight": "",
     "suffix": "."
   },
-  "description": " I share my learnings on various topics that I hope will help other Entrepreneurs and Business Owners as they work around building their Business",
+  "description": " I share my learnings on various topics and books that I hope will help other Entrepreneurs and Business Owners as they work around building their Business",
   "socialProfiles": {
     "from": ["Twitter","LinkedIn", "Github", "Mail"],
     "showIcons": true

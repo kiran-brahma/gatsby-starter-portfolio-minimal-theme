@@ -8,7 +8,7 @@ import ImageListItemBar from '@mui/material/ImageListItemBar';
 
 export default function TitlebarBelowMasonryImageList() {
   return (
-    <Box sx={{ width: 400 }}>
+    <Box sx={{ width: '100%' }}>
     <ImageList cols={1} gap={5}>
         {itemData.map((item) => (
           <ImageListItem key={item.img}>
